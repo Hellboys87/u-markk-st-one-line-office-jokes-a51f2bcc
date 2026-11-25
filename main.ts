@@ -1,18 +1,18 @@
 // One-Line Office Jokes — make.fun entry
 //
 // My joke turns on the office printer, the machine everyone knows
-// jams at the worst possible moment. The setup is a familiar plea:
+// jams at the worst possible moment. The setup is a desperate plea:
 // please stop jamming when a deadline is looming. The twist waits
-// until the very end — the one document this printer produces
-// flawlessly, without a single jam, is a resignation letter. The
-// laugh lands on the final word, "perfectly", because the printer
-// has finally revealed whose side it was on all along.
+// until the very end — the printer finally agrees, and the one
+// document it produces flawlessly is a resignation letter. The
+// laugh lands on the final beat, "in triplicate": the printer
+// wasn't just cooperating, it was enthusiastically helping me quit.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "I told the printer to stop jamming during deadlines, and it replied by printing my resignation letter perfectly.";
+  "I begged the printer to stop jamming on deadline day, so it printed my resignation letter flawlessly — in triplicate.";
 
 const MAX_CHARS = 199;
 
